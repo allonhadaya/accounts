@@ -19,7 +19,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     package_data={
-        'accounts': ['../README.md'],
+        'accounts': ['../README.md', '../requirements.txt'],
     },
     entry_points={
         'console_scripts': [
